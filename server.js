@@ -12,7 +12,7 @@ app.post("/", (req, res) => {
     id: req.body.id,
     name: req.body.name,
     type: req.body.type,
-    img: req.body.image,
+    img: "https://d3jn9mbjl19lxf.cloudfront.net/previews/Blueprints/Marketing/"+req.body.id+".png",
     tags: req.body.tags,
     category: req.body.category,
     subcategory: req.body.subcategory,
